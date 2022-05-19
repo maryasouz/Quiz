@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Apresentacao from './Apresentacao';
+require("./App.css");
 
 function App() {
 

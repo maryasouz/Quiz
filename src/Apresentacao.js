@@ -1,4 +1,6 @@
 import Quiz from "./Quiz";
+require("./Quiz.css");
+
 
 const Apresentacao = ( props ) => {
 
@@ -6,17 +8,29 @@ const Apresentacao = ( props ) => {
 
     return ( 
 
-        <div>
+        <div className="">
 
-            <h1>Bem-vindo ao Quiz</h1>
+        <div className="menu">
+
+            <h1>Você é Conrado ou Carlão?</h1>
             <p> Está pronto?</p>
-            <button onClick={() => alteraTela( <Quiz alteraTela={alteraTela}/> ) }> Começar </button>
+
+            <div className="img">  
+
+            <img width={650} src="https://i.imgur.com/oiuhcYd.jpg"/>
+ 
+            </div>
+
+
+            <div>
+            <button className="botao01" onClick={() => alteraTela( <Quiz alteraTela={alteraTela}/> ) }> Começar </button>
+            </div>
 
         </div>
 
+        </div>
 
-
-
+   
     );
 }
  

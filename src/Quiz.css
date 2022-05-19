@@ -1,0 +1,92 @@
+.menu{
+
+    background: rgb(236, 176, 106);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+}
+
+.menu h1{
+    font-size: 80px;
+}
+    
+.botao01{
+    
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    background: transparent;
+}
+
+.botao01:hover{
+
+    background-color: rgb(150, 72, 41);
+    color:white;
+    cursor: pointer;
+
+}
+    
+img{
+    border: 1px;
+    border-radius: 30px;
+    
+    
+}
+    
+.perguntas{
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    
+}
+
+.perguntas h1{
+    font-size: 70px;
+}
+    
+.respostas{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
+.perguntasImg{
+    
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+
+.botaoResposta{
+
+    background:transparent;
+    border-radius: 6px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    margin: 40px;
+    cursor: pointer;
+
+
+}
+
+.botaoResposta:hover {
+
+    background-color: rgb(150, 72, 41);
+    color:white;
+    cursor: pointer;
+
+}
+
+.imgResposta{
+
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+
+}
